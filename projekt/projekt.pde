@@ -1272,7 +1272,6 @@ void mouseReleased(){
   
   if(checkEnd() && endChecked == false)
   {
-    fastEnd = false;
     endChecked = true;
   }
   draggedCard = null;
